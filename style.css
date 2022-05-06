@@ -1,0 +1,34 @@
+body{
+    background-color: blanchedalmond;
+}
+.heading{
+    width: 100%;
+}
+
+.dadu{
+    font-size: 16px;
+    color: black;
+}
+
+#copy_right_footer{
+    background-color: grey;
+    color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 3;
+}
+
+canvas {
+    background-color: darksalmon;
+    border: 5px dashed white;
+    animation-name: example;
+    animation-duration: 4.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 3px 2px 1px 28px whitesmoke;}
+    to{box-shadow: 5px 1px 2px 30px grey;}
+}
